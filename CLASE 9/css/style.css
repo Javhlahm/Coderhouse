@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    background-color: goldenrod;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 10px;
+}
+
+header nav ul li:hover a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}

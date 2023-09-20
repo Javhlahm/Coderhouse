@@ -1,0 +1,35 @@
+section{
+    background-color: bisque;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.imagen-tarjeta img{
+    width: 200px;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 0 0 10px black;
+    background-color: azure;
+    height: 400px;
+}
+
+.envio{
+    color: green;
+    background-color: rgba(0, 166, 80, .1);
+}
+
+.texto{
+    padding: 10px;
+}

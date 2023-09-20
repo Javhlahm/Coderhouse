@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "magic";
+    src: url("../fonts/Super\ Magic.ttf");
+}
+
+*{
+    font-family: "magic";
+    box-sizing: border-box;
+}
+
+header{
+    background-color: cadetblue;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+main section p{
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    padding: 200px;
+    padding-top: 100px;
+    padding: 200px 200px 200px 200px;
+    overflow: scroll;
+    margin: 30px;
+    border: 3px solid black;
+    border-bottom: 3px solid greenyellow;
+    border-right: 10px solid greenyellow;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    position: sticky;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: azure;
+    display: inline-block;
+    position: relative;
+}
+
+footer{
+    height: 1000px;
+}
+

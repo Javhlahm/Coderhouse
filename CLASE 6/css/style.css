@@ -1,0 +1,22 @@
+.titulo{
+    display: flex;
+    background-color: aqua;
+    color: brown;
+    justify-content: center;
+}
+.grilla{
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: bisque;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer"
+    ;
+}
+
+.pie{
+    color: white;
+    background-color: ;
+}

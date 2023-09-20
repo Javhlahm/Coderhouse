@@ -1,0 +1,79 @@
+header{
+    background-image: url('../img/blue_header_s.jpg');
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    align-items: end;
+}
+.nombre{
+    text-align: center;
+    font-style: italic;
+    color: cornflowerblue;
+    background-color: azure;
+}
+
+.listanav{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    left: 1000px;
+}
+
+.imagen{
+    background-image: url("../img/piscina-lujo-1526246819.jpg");
+    background-size: cover;
+    height: 800px;
+
+}
+
+.datos{
+    color: brown;
+    font-size: xx-large;
+    text-align: center;
+    background-color: azure;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 30%;
+    left: 32%;
+    opacity: 0.7;
+    border: 10px solid black;
+}
+
+.detalles{
+    color: blueviolet;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+.descripcion{
+    width: 300px;
+    color: chocolate ;
+    font-size: large;
+}
+
+footer{
+    background-color: lightseagreen;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    height: 100px;
+    padding: 10px;
+    align-items: end;
+}
+
+
